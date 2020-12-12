@@ -1,0 +1,62 @@
+.logoff{
+    background: #fff;
+    
+    width: 100px;
+    height: 50px;
+    margin-top: 5px;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color:#ff6961;
+    font-weight: bolder;
+    box-shadow: 0px 0px 10px 1px #f7b0ad;
+    font-size: 15px;
+    transition: all 1s;
+}
+
+.logoff:hover {
+    color: white;
+    box-shadow: none;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+        
+    background: rgb(255,255,255); 
+    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 1%, rgba(255,186,186,1) 50%, rgba(255,26,0,1) 99%, rgba(255,26,0,1) 99%, rgba(255,26,0,1) 100%); 
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 1%,rgba(255,186,186,1) 50%,rgba(255,26,0,1) 99%,rgba(255,26,0,1) 99%,rgba(255,26,0,1) 100%); 
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 1%,rgba(255,186,186,1) 50%,rgba(255,26,0,1) 99%,rgba(255,26,0,1) 99%,rgba(255,26,0,1) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ff1a00',GradientType=0 ); 
+
+    cursor: pointer;
+}
+
+
+.Nav {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFF;
+    background: rgb(255,248,58); 
+    background: -moz-linear-gradient(top,  rgba(255,248,58,1) 0%, rgba(128,194,23,1) 67%, rgba(128,194,23,1) 84%, rgba(128,194,23,1) 93%, rgba(124,188,10,1) 100%); 
+    background: -webkit-linear-gradient(top,  rgba(255,248,58,1) 0%,rgba(128,194,23,1) 67%,rgba(128,194,23,1) 84%,rgba(128,194,23,1) 93%,rgba(124,188,10,1) 100%); 
+    background: linear-gradient(to bottom,  rgba(255,248,58,1) 0%,rgba(128,194,23,1) 67%,rgba(128,194,23,1) 84%,rgba(128,194,23,1) 93%,rgba(124,188,10,1) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff83a', endColorstr='#7cbc0a',GradientType=0 ); 
+    
+}
+
+@media (max-width: 280px) {
+    .logoff {
+        margin-right: 3000;
+        width: 10px;
+        height: 20px;
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .logoff {
+        margin: auto;
+        width: 70px;
+        height: 25px;
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,291 @@
+.back {
+    padding-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    background: -webkit-linear-gradient(rgb(255, 254, 254), rgb(15, 116, 2));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 1s;
+}
+
+.back:hover {
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+
+.total {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(107, 228, 113);
+
+    cursor: default;
+}
+
+.total font {
+    background: -webkit-linear-gradient(rgb(255, 251, 19), rgb(34, 231, 7));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 1s;
+    font-size: 35px;
+}
+
+.total font:hover {
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.note {
+  margin: auto;
+  margin-bottom: 10px;
+  border: 2px solid rgb(60, 255, 0);
+  width: 800px;
+  margin-top: 20px;
+  background: white;
+  border-radius: 30px;
+}
+
+.title {
+    margin-top: 20px;
+    letter-spacing: 0;
+    color: rgb(123, 219, 68);
+}
+
+.description {
+    text-align: center;
+    font-size: 20px;
+}
+
+.extra {
+    text-align: center;
+    font-size: 15px;
+}
+
+.pest-txt {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 50px;
+    
+}
+
+.pests-info {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5px;
+    
+}
+
+.date {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5px;
+  
+}
+
+#more {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(34, 231, 7);
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border: 1px solid rgb(34, 231, 7);
+    margin-left: 150px;
+    width: 500px;
+    border-radius: 10px;
+    transition: all 1s;
+}
+
+#more:hover {
+    background: rgb(34, 231, 7);
+    color: #FFF;
+    border-radius: 50px;
+    font-size: 35px;
+    box-shadow: 0px 0px 10px 5px rgb(23, 180, 3);
+    letter-spacing: 5px;
+}
+
+#more:active {
+    background: -webkit-linear-gradient(rgb(255, 251, 19), rgb(34, 231, 7));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    background-color: rgb(243, 243, 178);
+    box-shadow: 0px 0px 0px 5px rgb(175, 255, 165);
+}
+
+   
+ 
+::-webkit-scrollbar {
+    width: 12px;
+    height: 0px;
+}
+  
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(102, 255, 0, 0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    box-shadow: 0 0 6px rgba(0,0,0,0.5);
+}
+ 
+
+@media (max-width: 280px) {
+    .total {
+        font-size: 20px;
+    }
+    .total font {
+        font-size: 25px;
+    }
+
+    .note {
+        width: 150px;
+    }
+
+        
+    .description {
+        text-align: center;
+        font-size: 10px;
+        margin: 5px;
+    }
+    .extra {
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .pest-txt {
+        font-size: 13px;
+        
+    }
+        
+    .pests-info {
+        font-size: 13px;
+    }
+    
+    #more {
+        width: 100px;
+        margin-left: 15px;
+        padding-left: 25px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+        
+    #more:hover {
+        border-radius: 20px;
+        font-size: 25px;
+    }
+
+}
+
+
+@media (max-width: 320px) {
+    .total {
+        font-size: 25px;
+    }
+    .total font {
+        font-size: 30px;
+    }
+
+    .note {
+        width: 300px;
+    }
+
+        
+    .description {
+        font-size: 15px;
+        margin: 7px;
+    }
+    .extra {
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    .pest-txt {
+        font-size: 16px;
+        
+    }
+        
+    .pests-info {
+        font-size: 16px;
+    }
+    
+    #more {
+        height: 70px;
+        margin-left: 15px;
+        padding-left: 10px;
+        font-size: 35px;
+    }
+
+        
+    #more:hover {
+        border-radius: 20px;
+        font-size: 45px;
+    }
+
+}
+
+
+
+
+@media (max-width: 360px) {
+    .total {
+        font-size: 25px;
+    }
+    .total font {
+        font-size: 30px;
+    }
+
+    .note {
+        width: 330px;
+    }
+
+        
+    .description {
+        font-size: 15px;
+        margin: 7px;
+    }
+    .extra {
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    .pest-txt {
+        font-size: 20px;
+        
+    }
+        
+    .pests-info {
+        font-size: 20px;
+    }
+    
+    #more {
+        height: 70px;
+        margin-left: 15px;
+        padding-left: 10px;
+        width: 290px;
+        font-size: 35px;
+    }
+
+        
+    #more:hover {
+        border-radius: 20px;
+        font-size: 45px;
+    }
+
+    .date {
+        font-size: 30px;
+    }
+
+}
+

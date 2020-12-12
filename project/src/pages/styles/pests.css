@@ -1,0 +1,156 @@
+.introd-pests {
+    letter-spacing: 0px;
+}
+
+.pests-el {
+    width: 800px;
+    margin: auto;
+    box-shadow: 1px 1px 10px 2px black;
+    border-radius: 50px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.pests-title {
+    letter-spacing: 0px;
+    text-align: center;
+    color: rgb(34, 236, 34);
+    font-size: 30px;
+}
+
+.pests-img {
+    border-radius: 50px;
+    width: 500px;
+    height: 350px;
+    display: flex;
+    margin: auto;
+}
+
+.pests-desc {
+    text-align: center;
+}
+
+
+   
+ 
+::-webkit-scrollbar {
+    width: 12px;
+    height: 0px;
+}
+  
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(102, 255, 0, 0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    box-shadow: 0 0 6px rgba(0,0,0,0.5);
+}
+
+@media (max-width: 280px) {
+        
+    .pests-el {
+        width: 200px;
+        margin: auto;
+        box-shadow: 1px 1px 10px 2px black;
+        border-radius: 50px;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+        
+    .pests-title {
+        font-size: 17px;
+    }
+
+        
+    .pests-img {
+        border-radius: 50px;
+        width: 150px;
+        height: 80px;
+        display: flex;
+        margin: auto;
+    }
+
+        
+    .pests-desc {
+        font-size: 10px;
+    }
+   
+
+}
+
+
+@media (max-width: 320px) {
+        
+    .pests-el {
+        width: 300px;
+        margin: auto;
+        box-shadow: 1px 1px 10px 2px black;
+        border-radius: 50px;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+        
+    .pests-title {
+        font-size: 25px;
+    }
+
+        
+    .pests-img {
+        border-radius: 50px;
+        width: 200px;
+        height: 100px;
+        display: flex;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+        
+    .pests-desc {
+        font-size: 15px;
+    }
+   
+
+}
+
+
+
+@media (max-width: 360px) {
+        
+    .introd-pests {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+    .pests-el {
+        width: 340px;
+        margin: auto;
+        box-shadow: 1px 1px 10px 2px black;
+        border-radius: 50px;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+        
+    .pests-title {
+        font-size: 30px;
+    }
+
+        
+    .pests-img {
+        border-radius: 50px;
+        width: 230px;
+        height: 130px;
+        display: flex;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+        
+    .pests-desc {
+        font-size: 20px;
+    }
+   
+
+}

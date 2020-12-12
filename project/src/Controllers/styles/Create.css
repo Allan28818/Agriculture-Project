@@ -1,0 +1,246 @@
+.all-create {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper {
+    width: 450px;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 800px;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.wrapper .input-data {
+    height: 40px;
+    width: 100%;
+    position: relative;
+}
+
+.wrapper .input-data input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 17px;
+    border-bottom: 2px solid silver;
+    outline: none;
+}
+
+.input-data input:focus ~ label,
+.input-data input:valid ~ label {
+    transform: translateY(-20px);
+    font-size: 15px;
+    color: green;
+}
+
+.wrapper .input-data label {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: grey;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.wrapper .input-data .underline {
+    position: absolute;
+    bottom: -3px;
+    height: 2px;
+    width: 804px;
+}
+
+.wrapper .input-data .underline:before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: green;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.input-data input:focus ~ .underline:before,
+.input-data input:valid ~ .underline:before {
+    transform: scaleX(1);
+}
+
+.create-title {
+    letter-spacing: 0px;
+    font-size: 30px;
+    color: rgb(34, 236, 34);
+}
+
+.create-pests-desc,
+.label-create {
+    text-align: center;
+    font-size: 15px;
+}
+
+.label-create-top {
+    text-align: center;
+    font-size: 20px;
+}
+
+.pop {
+    text-align: center;
+    font-size: 15px;
+}
+
+.create-button {
+    width: 500px;
+    height: 55px;
+    font-size: 30px;
+    border: none;
+    display: flex;
+    margin: auto;
+    padding-left: 200px;
+    padding-top: 10px;
+    margin-bottom: 50px;
+    background: rgb(34, 236, 34);
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.create-button:hover {
+    color: rgb(34, 236, 34);
+    background: #FFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.63);
+    transition: 1s;
+}
+
+@media (max-width: 280px) {
+    .create-title {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .wrapper{
+        height: 30px;
+        width: 200px;
+    }
+
+    .wrapper .input-data .underline {
+        width: 204px;
+    }
+        
+        
+    .label-create-top {
+        font-size: 15px;
+        margin: 5px;
+    }
+
+        
+    .create-pests-desc,
+    .label-create {
+        font-size: 15px;
+        margin: 5px;
+    }
+
+    .create-button {
+        width: 200px;
+        font-size: 30px;
+        padding-left: 60px;
+    }
+
+        
+    .wrapper .input-data {
+        display: block;
+    }
+
+}
+
+
+@media (max-width: 320px) {
+    .create-title {
+        font-size: 25px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        padding: 10px;
+    }
+
+    .wrapper{
+        height: 35px;
+        width: 250px;
+    }
+
+    .wrapper .input-data .underline {
+        width: 254px;
+    }
+        
+        
+    .label-create-top {
+        font-size: 15px;
+        margin: 5px;
+    }
+
+        
+    .create-pests-desc,
+    .label-create {
+        font-size: 15px;
+        margin: 5px;
+    }
+
+    .create-button {
+        width: 300px;
+        font-size: 30px;
+        padding-left: 110px;
+    }
+
+        
+    .wrapper .input-data {
+        display: block;
+    }
+
+}
+
+
+
+
+@media (max-width: 360px) {
+    .create-title {
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        padding: 10px;
+    }
+
+    .wrapper{
+        height: 35px;
+        width: 280px;
+    }
+
+    .wrapper .input-data .underline {
+        width: 254px;
+    }
+        
+        
+    .label-create-top {
+        font-size: 15px;
+        margin: 5px;
+    }
+
+        
+    .create-pests-desc,
+    .label-create {
+        font-size: 15px;
+        margin: 5px;
+    }
+
+    .create-button {
+        width: 330px;
+        font-size: 40px;
+        padding-left: 110px;
+        padding-top: -10px;
+    }
+
+        
+    .wrapper .input-data {
+        display: block;
+    }
+
+}
