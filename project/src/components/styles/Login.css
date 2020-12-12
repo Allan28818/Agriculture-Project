@@ -1,0 +1,199 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.login {
+    width: 320px;
+    height: 420px;
+    border: 2px solid #000;
+    border-radius: 80px 0 80px 0;
+    color: #fff;
+    background-color: rgba(0, 0, 5, 0.8);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 68px 28px;
+}
+
+.usuario {
+    position: absolute;
+    top: -50px;
+    left: 100px;
+    width: 120px;
+    height: 120px;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 20px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+}
+
+.login p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.login input {
+    width: 100%;
+    margin-bottom: 21PX;
+}
+
+.login input[type="email"], input[type="password"] {
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+
+.login button {
+    border: none;
+    outline: none;
+    height: 35px;
+    width: 100%;
+    color: #000;
+    background: #fff;
+    border-radius: 10px;
+    transition: all 1s;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.login button:hover {
+    cursor: pointer;
+    
+    color: #FFF;
+
+    background: rgb(180,221,180); 
+    background: -moz-linear-gradient(top,  rgba(180,221,180,1) 0%, rgba(131,199,131,1) 17%, rgba(82,177,82,1) 33%, rgba(0,138,0,1) 67%, rgba(0,87,0,1) 84%, rgba(0,36,0,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(180,221,180,1) 0%,rgba(131,199,131,1) 17%,rgba(82,177,82,1) 33%,rgba(0,138,0,1) 67%,rgba(0,87,0,1) 84%,rgba(0,36,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(180,221,180,1) 0%,rgba(131,199,131,1) 17%,rgba(82,177,82,1) 33%,rgba(0,138,0,1) 67%,rgba(0,87,0,1) 84%,rgba(0,36,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', endColorstr='#002400',GradientType=0 );
+
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 2px #FFF;
+    transition: 1s;
+    
+}
+
+.login .sign-in {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFF;
+    transition: 0.5s;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.div-action {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .sign-in:hover {
+    transition: 0.5s;
+    font-size: 20px;
+    letter-spacing: 3px;
+    background: -webkit-linear-gradient(#eeeeee, rgb(97, 255, 105));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn-img{
+    width: 70px;
+    height: 30px;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+}
+
+   
+ 
+::-webkit-scrollbar {
+    width: 12px;
+    height: 0px;
+}
+  
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(102, 255, 0, 0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    box-shadow: 0 0 6px rgba(0,0,0,0.5);
+}
+ 
+
+@media(max-width: 280px) {
+        
+    .login {
+        width: 200px;
+    }
+
+        
+    h1 {
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+       
+    .usuario {
+        left: 60px;
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media(max-width: 360px) {
+    .login {
+        margin-top: 40px;
+        width: 300px;
+        border-top-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+    }
+
+    h1 {
+        letter-spacing: 3px;
+        font-size: 35px;
+    }
+
+    .usuario {
+        margin-top: -30px;
+        left: 20px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .div-action .sign-in {
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+
+    
+    .div-action .sign-in:hover {
+        letter-spacing: 10px;
+        font-size: 10px;
+        background: -webkit-linear-gradient(#eeeeee, rgb(97, 255, 105));
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}

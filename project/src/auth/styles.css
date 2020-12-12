@@ -1,0 +1,13 @@
+@media (max-width: 280px) {
+    .loading {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 320px) {
+    .loading {
+        width: 250px;
+        height: 250px;
+    }
+}

@@ -1,0 +1,133 @@
+.statistics-title {
+    letter-spacing: 0px;
+    font-size: 40px;
+    color: rgb(107, 228, 113);
+}
+
+.info {
+    margin-left: 20px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.statistics-el {
+    border: 2px solid  rgb(60, 255, 0);
+    display: block;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    width: 800px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    cursor: default;
+}
+
+.descri {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
+   
+ 
+::-webkit-scrollbar {
+    width: 12px;
+    height: 0px;
+}
+  
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(102, 255, 0, 0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    box-shadow: 0 0 6px rgba(0,0,0,0.5);
+}
+ 
+
+@media (max-width: 280px) {
+    .statistics-title {
+        font-size: 20px;
+        margin-top: 30px;
+    }
+
+    .descri {
+        font-size: 18px;
+        padding: 5px;
+    }
+
+        
+    .statistics-el {
+        margin-left: 40px;
+        width: 200px;
+        padding-left: 30px;
+        padding-bottom: 20px;
+        border-radius: 30px;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .statistics-title {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    .descri {
+        font-size: 20px;
+        padding: 5px;
+    }
+
+        
+    .statistics-el {
+        margin-left: 10px;
+        width: 300px;
+        padding-left: 30px;
+        padding-bottom: 20px;
+        border-radius: 30px;
+    }
+
+    .localization-list {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    .pests-list {
+        margin-top: 10px;
+        font-size: 17px;
+    }
+}
+
+
+
+@media (max-width: 360px) {
+    .statistics-title {
+        font-size: 35px;
+        margin-top: 30px;
+    }
+
+    .descri {
+        font-size: 20px;
+        padding: 5px;
+    }
+
+        
+    .statistics-el {
+        margin-left: 10px;
+        width: 340px;
+        padding-left: 30px;
+        padding-bottom: 20px;
+        border-radius: 30px;
+    }
+
+    .localization-list {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    .pests-list {
+        margin-top: 10px;
+        font-size: 17px;
+    }
+}
